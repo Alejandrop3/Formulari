@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import NeuronaMorada from './prototype/NeuronaMorada.svg';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <p>
           ¡Bien venidos a la primera fase de desarrollo de FΩRMULƛRI!
         </p>
+        <img src={NeuronaMorada} className="Neurona-Morada" alt="Neurona"/>
         <a
           className="App-link"
           href="https://reactjs.org"
