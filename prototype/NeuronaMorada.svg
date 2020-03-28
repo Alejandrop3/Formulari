@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="378" height="378" viewBox="0 0 378 378">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.208" gradientTransform="translate(0.011 -0.011) rotate(1.224)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a300ff"/>
+      <stop offset="1" stop-color="#000d80"/>
+    </radialGradient>
+    <filter id="NeuronaMorada" x="0" y="0" width="378" height="378" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.51"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="NeuronaMorada-2" data-name="NeuronaMorada" transform="translate(6 6)">
+    <g transform="matrix(1, 0, 0, 1, -6, -6)" filter="url(#NeuronaMorada)">
+      <circle id="NeuronaMorada-3" data-name="NeuronaMorada" cx="180" cy="180" r="180" transform="translate(6 6)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
